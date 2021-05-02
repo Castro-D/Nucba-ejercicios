@@ -60,3 +60,24 @@ h1 {
     display: inline-block;
     font-size: 30px;
     color: rgb(3, 170, 226);
+}
+
+.boton-mio {
+    position: relative;
+    top: 300px;
+    width: 200px;
+    height: 80px;
+    background-color: black;
+    border-color: #3498db;
+    color: #fff;
+    box-shadow: 0 0 40px 40px #3498db inset, 0 0 0 0 #3498db;
+    transition: all 150ms ease-in-out;
+  }
+  .boton-mio:hover {
+    box-shadow: 0 0 10px 0 #3498db inset, 0 0 10px 4px #3498db;
+  }
+
+.texto-boton-mio {
+    color: yellow;
+    font-size: 30px;
+}
