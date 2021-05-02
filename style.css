@@ -44,3 +44,19 @@ h1 {
     font-size: 30px;
     color: white;
 }
+
+.transparente {
+    line-height: 80px;
+    position: relative;
+    left: 520px;
+    top: 60px;
+    width: 200px;
+    height: 80px;
+    background-color: transparent;
+    text-align: center;
+}
+
+.texto-boton-ultimo {
+    display: inline-block;
+    font-size: 30px;
+    color: rgb(3, 170, 226);
