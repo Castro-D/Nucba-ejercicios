@@ -2,14 +2,29 @@ h1 {
     text-align: center;
 }
 
-.boton {
+.botones {
     width: 200px;
     height: 200px;
     display: inline-block;
-    background-color: red;
+    vertical-align: top;
+    line-height: 200px;
     text-align: center;
 }
 
 .centrado {
     text-align: center;
+}
+
+.circular {
+    border-radius: 50%;
+    background-color: rgb(3, 170, 226);
+    box-shadow: 12px 12px 20px 1px;
+    text-align: center;
+}
+
+span {
+    display: inline-block;
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
 }
